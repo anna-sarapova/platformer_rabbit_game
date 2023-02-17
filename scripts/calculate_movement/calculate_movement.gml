@@ -21,4 +21,21 @@ function calculate_movement()
 	/// @DnDArgument : "expr" "horisontal_speed*drag"
 	/// @DnDArgument : "var" "horisontal_speed"
 	horisontal_speed = horisontal_speed*drag;
+
+	/// @DnDAction : YoYo Games.Common.If_Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 59B4A4A0
+	/// @DnDParent : 4E5BCA5C
+	/// @DnDArgument : "var" "abs(horisontal_speed)"
+	/// @DnDArgument : "op" "1"
+	/// @DnDArgument : "value" "0.2"
+	if(abs(horisontal_speed) < 0.2)
+	{
+		/// @DnDAction : YoYo Games.Common.Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 79A1FC0B
+		/// @DnDParent : 59B4A4A0
+		/// @DnDArgument : "var" "horisontal_speed"
+		horisontal_speed = 0;
+	}
 }

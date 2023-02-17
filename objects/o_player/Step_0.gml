@@ -14,6 +14,20 @@ script_execute(calculate_movement);
 
 /// @DnDAction : YoYo Games.Common.Execute_Script
 /// @DnDVersion : 1.1
+/// @DnDHash : 600E73E1
+/// @DnDArgument : "script" "check_ground"
+/// @DnDSaveInfo : "script" "check_ground"
+script_execute(check_ground);
+
+/// @DnDAction : YoYo Games.Common.Execute_Script
+/// @DnDVersion : 1.1
+/// @DnDHash : 6DC71EFF
+/// @DnDArgument : "script" "check_jump"
+/// @DnDSaveInfo : "script" "check_jump"
+script_execute(check_jump);
+
+/// @DnDAction : YoYo Games.Common.Execute_Script
+/// @DnDVersion : 1.1
 /// @DnDHash : 6151FB64
 /// @DnDArgument : "script" "collision"
 /// @DnDSaveInfo : "script" "collision"
