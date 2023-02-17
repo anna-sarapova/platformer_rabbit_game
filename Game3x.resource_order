@@ -15,5 +15,9 @@
     {"name":"Notes","order":13,"path":"folders/Notes.yy",},
     {"name":"Extensions","order":14,"path":"folders/Extensions.yy",},
   ],
-  "ResourceOrderSettings": [],
+  "ResourceOrderSettings": [
+    {"name":"collision","order":2,"path":"scripts/collision/collision.yy",},
+    {"name":"animation","order":3,"path":"scripts/animation/animation.yy",},
+    {"name":"calculate_movement","order":1,"path":"scripts/calculate_movement/calculate_movement.yy",},
+  ],
 }
