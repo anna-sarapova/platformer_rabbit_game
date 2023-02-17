@@ -34,6 +34,7 @@
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"sprite_walk","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"s_player_walk","varType":0,},
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"sprite_air","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"s_player_air","varType":0,},
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"on_ground","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"0","varType":3,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"state","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"ps.IDLE","varType":1,},
   ],
   "solid": false,
   "spriteId": null,
