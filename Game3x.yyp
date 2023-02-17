@@ -33,6 +33,7 @@
   },
   "resources": [
     {"id":{"name":"collision","path":"scripts/collision/collision.yy",},"order":0,},
+    {"id":{"name":"o_game","path":"objects/o_game/o_game.yy",},"order":0,},
     {"id":{"name":"o_solid","path":"objects/o_solid/o_solid.yy",},"order":0,},
     {"id":{"name":"s_player","path":"sprites/s_player/s_player.yy",},"order":0,},
     {"id":{"name":"o_player","path":"objects/o_player/o_player.yy",},"order":0,},

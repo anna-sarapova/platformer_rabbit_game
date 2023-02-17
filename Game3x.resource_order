@@ -17,6 +17,7 @@
   ],
   "ResourceOrderSettings": [
     {"name":"collision","order":2,"path":"scripts/collision/collision.yy",},
+    {"name":"o_game","order":2,"path":"objects/o_game/o_game.yy",},
     {"name":"o_solid","order":1,"path":"objects/o_solid/o_solid.yy",},
     {"name":"animation","order":3,"path":"scripts/animation/animation.yy",},
     {"name":"calculate_movement","order":1,"path":"scripts/calculate_movement/calculate_movement.yy",},

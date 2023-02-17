@@ -7,6 +7,15 @@ function calculate_movement()
 {
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
+	/// @DnDHash : 107F9EC5
+	/// @DnDParent : 4E5BCA5C
+	/// @DnDArgument : "expr" "global.grav"
+	/// @DnDArgument : "expr_relative" "1"
+	/// @DnDArgument : "var" "vertical_speed"
+	vertical_speed += global.grav;
+
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
 	/// @DnDHash : 1A962016
 	/// @DnDParent : 4E5BCA5C
 	/// @DnDArgument : "expr" "horisontal_speed*drag"
