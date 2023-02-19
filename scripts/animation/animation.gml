@@ -81,36 +81,51 @@ function animation()
 			/// @DnDSaveInfo : "script" "check_facing"
 			script_execute(check_facing);
 		
-			/// @DnDAction : YoYo Games.Common.If_Variable
-			/// @DnDVersion : 1
-			/// @DnDHash : 66E8E8B3
+			/// @DnDAction : YoYo Games.Common.Execute_Script
+			/// @DnDVersion : 1.1
+			/// @DnDHash : 1C654D33
 			/// @DnDParent : 1A96436F
-			/// @DnDArgument : "var" "vertical_speed"
-			/// @DnDArgument : "op" "1"
-			if(vertical_speed < 0)
-			{
-				/// @DnDAction : YoYo Games.Instances.Set_Instance_Var
-				/// @DnDVersion : 1
-				/// @DnDHash : 33C17C93
-				/// @DnDParent : 66E8E8B3
-				/// @DnDArgument : "instvar" "11"
-				image_index = 0;
-			}
+			/// @DnDArgument : "script" "check_air_index"
+			/// @DnDSaveInfo : "script" "check_air_index"
+			script_execute(check_air_index);
+			break;
+	
+		/// @DnDAction : YoYo Games.Switch.Case
+		/// @DnDVersion : 1
+		/// @DnDHash : 1F1D9944
+		/// @DnDParent : 22667DF9
+		/// @DnDArgument : "const" "ps.KNOCKBACK "
+		case ps.KNOCKBACK :
+			/// @DnDAction : YoYo Games.Common.Variable
+			/// @DnDVersion : 1
+			/// @DnDHash : 6B119F48
+			/// @DnDParent : 1F1D9944
+			/// @DnDArgument : "expr" "sprite_air"
+			/// @DnDArgument : "var" "sprite_index"
+			sprite_index = sprite_air;
 		
-			/// @DnDAction : YoYo Games.Common.Else
+			/// @DnDAction : YoYo Games.Common.Execute_Script
+			/// @DnDVersion : 1.1
+			/// @DnDHash : 1E1261DB
+			/// @DnDParent : 1F1D9944
+			/// @DnDArgument : "script" "check_air_index"
+			/// @DnDSaveInfo : "script" "check_air_index"
+			script_execute(check_air_index);
+			break;
+	
+		/// @DnDAction : YoYo Games.Switch.Case
+		/// @DnDVersion : 1
+		/// @DnDHash : 4FB00DCD
+		/// @DnDParent : 22667DF9
+		/// @DnDArgument : "const" "ps.DEAD "
+		case ps.DEAD :
+			/// @DnDAction : YoYo Games.Common.Variable
 			/// @DnDVersion : 1
-			/// @DnDHash : 5B13C674
-			/// @DnDParent : 1A96436F
-			else
-			{
-				/// @DnDAction : YoYo Games.Instances.Set_Instance_Var
-				/// @DnDVersion : 1
-				/// @DnDHash : 6EF50B5F
-				/// @DnDParent : 5B13C674
-				/// @DnDArgument : "value" "1"
-				/// @DnDArgument : "instvar" "11"
-				image_index = 1;
-			}
+			/// @DnDHash : 1120552C
+			/// @DnDParent : 4FB00DCD
+			/// @DnDArgument : "expr" "sprite_dead"
+			/// @DnDArgument : "var" "sprite_index"
+			sprite_index = sprite_dead;
 			break;
 	}
 }
