@@ -41,6 +41,7 @@
     {"id":{"name":"check_state","path":"scripts/check_state/check_state.yy",},"order":0,},
     {"id":{"name":"s_enemy_dead","path":"sprites/s_enemy_dead/s_enemy_dead.yy",},"order":0,},
     {"id":{"name":"s_player_walk","path":"sprites/s_player_walk/s_player_walk.yy",},"order":0,},
+    {"id":{"name":"s_background_trees","path":"sprites/s_background_trees/s_background_trees.yy",},"order":0,},
     {"id":{"name":"check_facing","path":"scripts/check_facing/check_facing.yy",},"order":0,},
     {"id":{"name":"o_player","path":"objects/o_player/o_player.yy",},"order":0,},
     {"id":{"name":"animation","path":"scripts/animation/animation.yy",},"order":0,},

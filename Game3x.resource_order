@@ -24,6 +24,7 @@
     {"name":"check_state","order":6,"path":"scripts/check_state/check_state.yy",},
     {"name":"s_enemy_dead","order":6,"path":"sprites/s_enemy_dead/s_enemy_dead.yy",},
     {"name":"s_player_walk","order":2,"path":"sprites/s_player_walk/s_player_walk.yy",},
+    {"name":"s_background_trees","order":8,"path":"sprites/s_background_trees/s_background_trees.yy",},
     {"name":"check_facing","order":7,"path":"scripts/check_facing/check_facing.yy",},
     {"name":"animation","order":3,"path":"scripts/animation/animation.yy",},
     {"name":"calculate_movement","order":1,"path":"scripts/calculate_movement/calculate_movement.yy",},
