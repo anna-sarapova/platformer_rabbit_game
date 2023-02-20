@@ -77,6 +77,21 @@ if(!(state == ps.DEAD))
 				/// @DnDArgument : "expr" "es.DEAD"
 				/// @DnDArgument : "var" "state"
 				state = es.DEAD;
+			
+				/// @DnDAction : YoYo Games.Common.Apply_To
+				/// @DnDVersion : 1
+				/// @DnDHash : 3DAC8E15
+				/// @DnDApplyTo : {o_game}
+				/// @DnDParent : 29E4BA54
+				with(o_game) {
+					/// @DnDAction : YoYo Games.Common.Variable
+					/// @DnDVersion : 1
+					/// @DnDHash : 49FCD8B2
+					/// @DnDParent : 3DAC8E15
+					/// @DnDArgument : "expr" "true"
+					/// @DnDArgument : "var" "screen_shake"
+					screen_shake = true;
+				}
 			}
 		}
 	
