@@ -25,6 +25,7 @@
     {"name":"animation_enemy","order":8,"path":"scripts/animation_enemy/animation_enemy.yy",},
     {"name":"check_state","order":6,"path":"scripts/check_state/check_state.yy",},
     {"name":"s_enemy_dead","order":6,"path":"sprites/s_enemy_dead/s_enemy_dead.yy",},
+    {"name":"s_bunny_jump","order":13,"path":"sprites/s_bunny_jump/s_bunny_jump.yy",},
     {"name":"check_hit_points","order":10,"path":"scripts/check_hit_points/check_hit_points.yy",},
     {"name":"s_player_walk","order":2,"path":"sprites/s_player_walk/s_player_walk.yy",},
     {"name":"s_background_trees","order":8,"path":"sprites/s_background_trees/s_background_trees.yy",},
@@ -44,6 +45,7 @@
     {"name":"s_solid","order":1,"path":"sprites/s_solid/s_solid.yy",},
     {"name":"o_enemy","order":4,"path":"objects/o_enemy/o_enemy.yy",},
     {"name":"t_jungle","order":1,"path":"tilesets/t_jungle/t_jungle.yy",},
+    {"name":"s_bunny_walk","order":12,"path":"sprites/s_bunny_walk/s_bunny_walk.yy",},
     {"name":"o_entity","order":3,"path":"objects/o_entity/o_entity.yy",},
   ],
 }
