@@ -28,6 +28,14 @@ function check_jump()
 			/// @DnDArgument : "expr" "-jump_speed"
 			/// @DnDArgument : "var" "vertical_speed"
 			vertical_speed = -jump_speed;
+		
+			/// @DnDAction : YoYo Games.Common.Execute_Script
+			/// @DnDVersion : 1.1
+			/// @DnDHash : 203CED70
+			/// @DnDParent : 5EBA432A
+			/// @DnDArgument : "script" "scr_create_dust"
+			/// @DnDSaveInfo : "script" "scr_create_dust"
+			script_execute(scr_create_dust);
 		}
 	}
 }

@@ -45,6 +45,17 @@ if(!(state == ps.DEAD))
 			/// @DnDApplyTo : other
 			/// @DnDParent : 355ED891
 			with(other) {
+				/// @DnDAction : YoYo Games.Instances.Create_Instance
+				/// @DnDVersion : 1
+				/// @DnDHash : 5020BC52
+				/// @DnDParent : 29E4BA54
+				/// @DnDArgument : "xpos_relative" "1"
+				/// @DnDArgument : "ypos" "bbox_top"
+				/// @DnDArgument : "objectid" "o_explode_ring"
+				/// @DnDArgument : "layer" ""FX""
+				/// @DnDSaveInfo : "objectid" "o_explode_ring"
+				instance_create_layer(x + 0, bbox_top, "FX", o_explode_ring);
+			
 				/// @DnDAction : YoYo Games.Instances.Set_Instance_Var
 				/// @DnDVersion : 1
 				/// @DnDHash : 3AACE52F
