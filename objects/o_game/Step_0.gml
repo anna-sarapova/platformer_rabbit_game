@@ -13,6 +13,12 @@ var scroll_speed = 0.6;
 // move layer
 layer_x(layer_id, camera_get_view_x(view_camera[0]) * scroll_speed);
 
+/// @DnDAction : YoYo Games.Common.Execute_Script
+/// @DnDVersion : 1.1
+/// @DnDHash : 6C1768E3
+/// @DnDArgument : "script" "scr_spawn_leaf"
+script_execute(scr_spawn_leaf);
+
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 5A4543E7

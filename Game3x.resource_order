@@ -18,7 +18,9 @@
   "ResourceOrderSettings": [
     {"name":"s_player_dead","order":9,"path":"sprites/s_player_dead/s_player_dead.yy",},
     {"name":"collision","order":2,"path":"scripts/collision/collision.yy",},
+    {"name":"o_leaf","order":7,"path":"objects/o_leaf/o_leaf.yy",},
     {"name":"o_dust","order":5,"path":"objects/o_dust/o_dust.yy",},
+    {"name":"scr_spawn_leaf","order":12,"path":"scripts/scr_spawn_leaf/scr_spawn_leaf.yy",},
     {"name":"o_game","order":2,"path":"objects/o_game/o_game.yy",},
     {"name":"o_solid","order":1,"path":"objects/o_solid/o_solid.yy",},
     {"name":"s_player_air","order":3,"path":"sprites/s_player_air/s_player_air.yy",},
@@ -28,6 +30,7 @@
     {"name":"s_bunny_jump","order":13,"path":"sprites/s_bunny_jump/s_bunny_jump.yy",},
     {"name":"check_hit_points","order":10,"path":"scripts/check_hit_points/check_hit_points.yy",},
     {"name":"s_player_walk","order":2,"path":"sprites/s_player_walk/s_player_walk.yy",},
+    {"name":"s_leaf","order":14,"path":"sprites/s_leaf/s_leaf.yy",},
     {"name":"s_background_trees","order":8,"path":"sprites/s_background_trees/s_background_trees.yy",},
     {"name":"check_facing","order":7,"path":"scripts/check_facing/check_facing.yy",},
     {"name":"animation","order":3,"path":"scripts/animation/animation.yy",},
