@@ -78,6 +78,26 @@ if(!(state == ps.DEAD))
 				/// @DnDArgument : "var" "state"
 				state = es.DEAD;
 			
+				/// @DnDAction : YoYo Games.Loops.Repeat
+				/// @DnDVersion : 1
+				/// @DnDHash : 12A43A7B
+				/// @DnDParent : 29E4BA54
+				/// @DnDArgument : "times" "irandom_range(4,6)"
+				repeat(irandom_range(4,6))
+				{
+					/// @DnDAction : YoYo Games.Instances.Create_Instance
+					/// @DnDVersion : 1
+					/// @DnDHash : 3CAB3320
+					/// @DnDParent : 12A43A7B
+					/// @DnDArgument : "xpos" "random_range(-10, 10)"
+					/// @DnDArgument : "xpos_relative" "1"
+					/// @DnDArgument : "ypos" "bbox_top"
+					/// @DnDArgument : "objectid" "o_coin"
+					/// @DnDArgument : "layer" ""Coin""
+					/// @DnDSaveInfo : "objectid" "o_coin"
+					instance_create_layer(x + random_range(-10, 10), bbox_top, "Coin", o_coin);
+				}
+			
 				/// @DnDAction : YoYo Games.Common.Apply_To
 				/// @DnDVersion : 1
 				/// @DnDHash : 3DAC8E15

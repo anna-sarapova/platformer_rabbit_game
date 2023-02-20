@@ -5,6 +5,12 @@
 /// @DnDArgument : "var" "grav"
 global.grav = 0.3;
 
+/// @DnDAction : YoYo Games.Common.Set_Global
+/// @DnDVersion : 1
+/// @DnDHash : 7672771C
+/// @DnDArgument : "var" "coins"
+global.coins = 0;
+
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 0EBB3B1C
