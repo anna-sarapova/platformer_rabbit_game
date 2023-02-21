@@ -39,9 +39,9 @@ switch(l169F0D4D_0)
 		/// @DnDVersion : 1.1
 		/// @DnDHash : 0DD9ECFD
 		/// @DnDParent : 56BD95D1
-		/// @DnDArgument : "script" "calculate_movement"
-		/// @DnDSaveInfo : "script" "calculate_movement"
-		script_execute(calculate_movement);
+		/// @DnDArgument : "script" "calculate_movement_other"
+		/// @DnDSaveInfo : "script" "calculate_movement_other"
+		script_execute(calculate_movement_other);
 	
 		/// @DnDAction : YoYo Games.Common.Execute_Script
 		/// @DnDVersion : 1.1

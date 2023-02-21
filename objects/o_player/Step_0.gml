@@ -235,6 +235,14 @@ switch(l169F0D4D_0)
 	case ps.KNOCKBACK   :
 		/// @DnDAction : YoYo Games.Common.Execute_Script
 		/// @DnDVersion : 1.1
+		/// @DnDHash : 754372ED
+		/// @DnDParent : 37E496E8
+		/// @DnDArgument : "script" "reset_input"
+		/// @DnDSaveInfo : "script" "reset_input"
+		script_execute(reset_input);
+	
+		/// @DnDAction : YoYo Games.Common.Execute_Script
+		/// @DnDVersion : 1.1
 		/// @DnDHash : 3E53DEF7
 		/// @DnDParent : 37E496E8
 		/// @DnDArgument : "script" "calculate_movement"

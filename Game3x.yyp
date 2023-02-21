@@ -34,6 +34,7 @@
   "resources": [
     {"id":{"name":"s_player_dead","path":"sprites/s_player_dead/s_player_dead.yy",},"order":0,},
     {"id":{"name":"collision","path":"scripts/collision/collision.yy",},"order":0,},
+    {"id":{"name":"reset_input","path":"scripts/reset_input/reset_input.yy",},"order":0,},
     {"id":{"name":"o_leaf","path":"objects/o_leaf/o_leaf.yy",},"order":0,},
     {"id":{"name":"o_dust","path":"objects/o_dust/o_dust.yy",},"order":0,},
     {"id":{"name":"scr_draw_score","path":"scripts/scr_draw_score/scr_draw_score.yy",},"order":0,},
@@ -52,7 +53,9 @@
     {"id":{"name":"scr_draw_coins","path":"scripts/scr_draw_coins/scr_draw_coins.yy",},"order":0,},
     {"id":{"name":"s_coin_pickup","path":"sprites/s_coin_pickup/s_coin_pickup.yy",},"order":0,},
     {"id":{"name":"check_hit_points","path":"scripts/check_hit_points/check_hit_points.yy",},"order":0,},
+    {"id":{"name":"get_input_gamepad","path":"scripts/get_input_gamepad/get_input_gamepad.yy",},"order":0,},
     {"id":{"name":"s_player_walk","path":"sprites/s_player_walk/s_player_walk.yy",},"order":0,},
+    {"id":{"name":"calculate_movement_other","path":"scripts/calculate_movement_other/calculate_movement_other.yy",},"order":0,},
     {"id":{"name":"o_floating_text","path":"objects/o_floating_text/o_floating_text.yy",},"order":0,},
     {"id":{"name":"s_leaf","path":"sprites/s_leaf/s_leaf.yy",},"order":0,},
     {"id":{"name":"s_background_trees","path":"sprites/s_background_trees/s_background_trees.yy",},"order":0,},
