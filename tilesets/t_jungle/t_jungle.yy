@@ -4,9 +4,13 @@
   "name": "t_jungle",
   "autoTileSets": [],
   "macroPageTiles": {
-    "SerialiseHeight": 0,
-    "SerialiseWidth": 0,
-    "TileSerialiseData": [],
+    "SerialiseHeight": 22,
+    "SerialiseWidth": 18,
+    "TileCompressedData": [
+      -396,
+      0,
+    ],
+    "TileDataFormat": 1,
   },
   "out_columns": 20,
   "out_tilehborder": 2,
