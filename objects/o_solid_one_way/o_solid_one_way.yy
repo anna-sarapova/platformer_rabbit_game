@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "o_solid",
+  "name": "o_solid_one_way",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "s_solid",
-    "path": "sprites/s_solid/s_solid.yy",
+    "name": "s_solid_one_way",
+    "path": "sprites/s_solid_one_way/s_solid_one_way.yy",
   },
   "spriteMaskId": null,
   "visible": true,

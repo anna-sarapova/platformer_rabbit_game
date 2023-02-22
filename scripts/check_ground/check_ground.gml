@@ -5,6 +5,12 @@
 /// @DnDArgument : "funcName" "check_ground"
 function check_ground() 
 {
+	/// @DnDAction : YoYo Games.Common.Exit_Event
+	/// @DnDVersion : 1
+	/// @DnDHash : 4C7C740A
+	/// @DnDParent : 6D78F442
+	exit;
+
 	/// @DnDAction : YoYo Games.Collisions.If_Object_At
 	/// @DnDVersion : 1.1
 	/// @DnDHash : 774C31F6
@@ -12,9 +18,9 @@ function check_ground()
 	/// @DnDArgument : "x_relative" "1"
 	/// @DnDArgument : "y" "global.grav"
 	/// @DnDArgument : "y_relative" "1"
-	/// @DnDArgument : "object" "o_solid"
-	/// @DnDSaveInfo : "object" "o_solid"
-	var l774C31F6_0 = instance_place(x + 0, y + global.grav, o_solid);
+	/// @DnDArgument : "object" "o_solid_parent"
+	/// @DnDSaveInfo : "object" "o_solid_parent"
+	var l774C31F6_0 = instance_place(x + 0, y + global.grav, o_solid_parent);
 	if ((l774C31F6_0 > 0))
 	{
 		/// @DnDAction : YoYo Games.Common.Variable

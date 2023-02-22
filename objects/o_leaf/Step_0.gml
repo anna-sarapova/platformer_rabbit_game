@@ -11,9 +11,9 @@ if(!(vspeed == 0))
 	/// @DnDParent : 097DA73B
 	/// @DnDArgument : "x_relative" "1"
 	/// @DnDArgument : "y_relative" "1"
-	/// @DnDArgument : "object" "o_solid"
-	/// @DnDSaveInfo : "object" "o_solid"
-	var l46EDAC46_0 = instance_place(x + 0, y + 0, o_solid);
+	/// @DnDArgument : "object" "o_solid_parent"
+	/// @DnDSaveInfo : "object" "o_solid_parent"
+	var l46EDAC46_0 = instance_place(x + 0, y + 0, o_solid_parent);
 	if ((l46EDAC46_0 > 0))
 	{
 		/// @DnDAction : YoYo Games.Instances.Set_Instance_Var
