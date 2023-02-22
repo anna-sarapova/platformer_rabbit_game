@@ -21,6 +21,14 @@ function check_jump()
 		/// @DnDArgument : "value" "true"
 		if(jump == true)
 		{
+			/// @DnDAction : YoYo Games.Audio.Play_Audio
+			/// @DnDVersion : 1.1
+			/// @DnDHash : 7EEAD783
+			/// @DnDParent : 5EBA432A
+			/// @DnDArgument : "soundid" "snd_jump"
+			/// @DnDSaveInfo : "soundid" "snd_jump"
+			audio_play_sound(snd_jump, 0, 0, 1.0, undefined, 1.0);
+		
 			/// @DnDAction : YoYo Games.Common.Variable
 			/// @DnDVersion : 1
 			/// @DnDHash : 3ED6C890

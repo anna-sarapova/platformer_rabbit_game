@@ -200,6 +200,14 @@ switch(l169F0D4D_0)
 			/// @DnDArgument : "script" "scr_create_dust"
 			/// @DnDSaveInfo : "script" "scr_create_dust"
 			script_execute(scr_create_dust);
+		
+			/// @DnDAction : YoYo Games.Audio.Play_Audio
+			/// @DnDVersion : 1.1
+			/// @DnDHash : 7F1F34AE
+			/// @DnDParent : 1895935B
+			/// @DnDArgument : "soundid" "snd_land"
+			/// @DnDSaveInfo : "soundid" "snd_land"
+			audio_play_sound(snd_land, 0, 0, 1.0, undefined, 1.0);
 		}
 	
 		/// @DnDAction : YoYo Games.Common.Execute_Script

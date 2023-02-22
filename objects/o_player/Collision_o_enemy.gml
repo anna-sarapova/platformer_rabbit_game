@@ -24,6 +24,14 @@ if(!(state == ps.DEAD))
 		/// @DnDArgument : "expr_1" "vertical_speed > 0"
 		if(bbox_bottom < other.bbox_top + 10 && vertical_speed > 0)
 		{
+			/// @DnDAction : YoYo Games.Audio.Play_Audio
+			/// @DnDVersion : 1.1
+			/// @DnDHash : 62A6BB5F
+			/// @DnDParent : 355ED891
+			/// @DnDArgument : "soundid" "snd_land_on_enemy"
+			/// @DnDSaveInfo : "soundid" "snd_land_on_enemy"
+			audio_play_sound(snd_land_on_enemy, 0, 0, 1.0, undefined, 1.0);
+		
 			/// @DnDAction : YoYo Games.Common.Variable
 			/// @DnDVersion : 1
 			/// @DnDHash : 471FBD54
@@ -166,6 +174,14 @@ if(!(state == ps.DEAD))
 			/// @DnDArgument : "expr_1" "alarm[0] <= 0"
 			if(state != ps.KNOCKBACK && alarm[0] <= 0)
 			{
+				/// @DnDAction : YoYo Games.Audio.Play_Audio
+				/// @DnDVersion : 1.1
+				/// @DnDHash : 22E38756
+				/// @DnDParent : 4F301615
+				/// @DnDArgument : "soundid" "snd_player_damaged"
+				/// @DnDSaveInfo : "soundid" "snd_player_damaged"
+				audio_play_sound(snd_player_damaged, 0, 0, 1.0, undefined, 1.0);
+			
 				/// @DnDAction : YoYo Games.Common.Variable
 				/// @DnDVersion : 1
 				/// @DnDHash : 4D48B755

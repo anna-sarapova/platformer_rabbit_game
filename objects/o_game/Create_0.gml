@@ -30,6 +30,12 @@ enum es {
 	DEAD
 }
 
+/// @DnDAction : YoYo Games.Data Structures.Create_List
+/// @DnDVersion : 1
+/// @DnDHash : 42F47DF1
+/// @DnDArgument : "var" "global.dead_list"
+global.dead_list = ds_list_create();
+
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
 /// @DnDHash : 5B5BC120
