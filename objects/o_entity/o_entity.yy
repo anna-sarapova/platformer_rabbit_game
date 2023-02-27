@@ -38,8 +38,6 @@
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"state","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"ps.IDLE","varType":1,},
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"horisontal_speed_knockback","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"8","varType":0,},
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"vertical_speed_knockback","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"5","varType":0,},
-    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"hit_points_max","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"3","varType":0,},
-    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"hit_points","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"hit_points_max","varType":0,},
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"immune_time","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"room_speed * .1","varType":0,},
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"bounce","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"0","varType":0,},
   ],

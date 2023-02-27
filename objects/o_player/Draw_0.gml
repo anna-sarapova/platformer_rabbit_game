@@ -11,9 +11,9 @@ draw_sprite_ext(sprite_index, image_index, x + 0, y + 0, facing, 1, 0, $FFFFFF &
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 0096A967
-/// @DnDArgument : "var" "hit_points"
+/// @DnDArgument : "var" "global.hit_points"
 /// @DnDArgument : "op" "2"
-if(hit_points > 0)
+if(global.hit_points > 0)
 {
 	/// @DnDAction : YoYo Games.Drawing.Draw_Healthbar
 	/// @DnDVersion : 1
@@ -27,9 +27,9 @@ if(hit_points > 0)
 	/// @DnDArgument : "x2_relative" "1"
 	/// @DnDArgument : "y2" "-40"
 	/// @DnDArgument : "y2_relative" "1"
-	/// @DnDArgument : "value" "hit_points/hit_points_max*100"
+	/// @DnDArgument : "value" "global.hit_points/global.hit_points_max*100"
 	/// @DnDArgument : "backcol" "$FF000000"
 	/// @DnDArgument : "mincol" "$FF0000DD"
 	/// @DnDArgument : "maxcol" "$FF00CC00"
-	draw_healthbar(x + -20, y + -45, x + 20, y + -40, hit_points/hit_points_max*100, $FF000000 & $FFFFFF, $FF0000DD & $FFFFFF, $FF00CC00 & $FFFFFF, 0, (($FF000000>>24) != 0), (($FFFFFFFF>>24) != 0));
+	draw_healthbar(x + -20, y + -45, x + 20, y + -40, global.hit_points/global.hit_points_max*100, $FF000000 & $FFFFFF, $FF0000DD & $FFFFFF, $FF00CC00 & $FFFFFF, 0, (($FF000000>>24) != 0), (($FFFFFFFF>>24) != 0));
 }

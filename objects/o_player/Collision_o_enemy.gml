@@ -188,16 +188,17 @@ if(!(state == ps.DEAD))
 				/// @DnDParent : 4F301615
 				/// @DnDArgument : "expr" "-1"
 				/// @DnDArgument : "expr_relative" "1"
-				/// @DnDArgument : "var" "hit_points"
-				hit_points += -1;
+				/// @DnDArgument : "var" "global.hit_points"
+				global.hit_points += -1;
 			
 				/// @DnDAction : YoYo Games.Common.Variable
 				/// @DnDVersion : 1
 				/// @DnDHash : 39A0FC59
 				/// @DnDParent : 4F301615
 				/// @DnDArgument : "expr" "sign(x - other.x) * horisontal_speed_knockback"
+				/// @DnDArgument : "expr_relative" "1"
 				/// @DnDArgument : "var" "horisontal_speed"
-				horisontal_speed = sign(x - other.x) * horisontal_speed_knockback;
+				horisontal_speed += sign(x - other.x) * horisontal_speed_knockback;
 			
 				/// @DnDAction : YoYo Games.Common.Variable
 				/// @DnDVersion : 1

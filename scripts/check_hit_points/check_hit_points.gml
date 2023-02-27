@@ -9,9 +9,9 @@ function check_hit_points()
 	/// @DnDVersion : 1
 	/// @DnDHash : 4DE998EC
 	/// @DnDParent : 6B8DADB6
-	/// @DnDArgument : "var" "hit_points"
+	/// @DnDArgument : "var" "global.hit_points"
 	/// @DnDArgument : "op" "3"
-	if(hit_points <= 0)
+	if(global.hit_points <= 0)
 	{
 		/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1
