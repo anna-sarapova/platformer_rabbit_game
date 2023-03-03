@@ -31,10 +31,17 @@ global.hit_points_max = 4;
 /// @DnDArgument : "var" "hit_points"
 global.hit_points = global.hit_points_max;
 
+/// @DnDAction : YoYo Games.Common.Set_Global
+/// @DnDVersion : 1
+/// @DnDHash : 470E0978
+/// @DnDArgument : "value" "global.hit_points_max"
+/// @DnDArgument : "var" "boss_hit_points"
+global.boss_hit_points = global.hit_points_max;
+
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 0EBB3B1C
-/// @DnDArgument : "code" "/// player states$(13_10)enum ps {$(13_10)	IDLE,$(13_10)	WALK,$(13_10)	AIR,$(13_10)	KNOCKBACK,$(13_10)	DEAD,$(13_10)	HEAL$(13_10)}$(13_10)$(13_10)enum es {$(13_10)	IDLE,$(13_10)	WALK,$(13_10)	DEAD$(13_10)}"
+/// @DnDArgument : "code" "/// player states$(13_10)enum ps {$(13_10)	IDLE,$(13_10)	WALK,$(13_10)	AIR,$(13_10)	KNOCKBACK,$(13_10)	DEAD,$(13_10)	HEAL$(13_10)}$(13_10)$(13_10)enum es {$(13_10)	IDLE,$(13_10)	WALK,$(13_10)	DEAD,$(13_10)	KNOCKBACK$(13_10)}"
 /// player states
 enum ps {
 	IDLE,
@@ -48,7 +55,8 @@ enum ps {
 enum es {
 	IDLE,
 	WALK,
-	DEAD
+	DEAD,
+	KNOCKBACK
 }
 
 /// @DnDAction : YoYo Games.Data Structures.Create_List
